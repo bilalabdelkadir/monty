@@ -1,6 +1,3 @@
-*~
-[[:alpha:]]
-[[:digit:]]*
-test*
-*.m
-monty
+*.vscode/
+./C-mont
+*.swp
