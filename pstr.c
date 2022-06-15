@@ -1,25 +1,271 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "monty.h"
 
 /**
- * pstr - prints the contents of a stack_t stack as a string
- * @stack: stack given by main
- * @line_cnt: line counter for error messages
- *
- * Return: nothing
+ * pstr - Function that prints string of the stack
+ * @stack: stack structure
+ * @line_number: number of instruction
  */
-void pstr(stack_t **stack, unsigned int line_cnt __attribute__((unused)))
+void pstr(stack_t **stack, UN unsigned int line_number)
 {
-	stack_t *current = *stack;
+	stack_t *temp = NULL;
 
-	while (current)
+	if (*stack == NULL)
 	{
-		if (current->n <= 0 || current->n > 127)
-			break;
-		putchar((char) current->n);
-		current = current->next;
+		putchar(10);
+		return;
 	}
-	putchar('\n');
-}
 
+	temp = *stack;
+
+	while (temp)
+	{
+		if (temp->n <= 0 || temp->n >= 128)
+		{
+			putchar(10);
+			return;
+		}
+		printf("%c", temp->n);
+		temp = temp->next;
+	}
+	putchar(10);
+}#include "monty.h"
+
+/**
+ * pstr - Function that prints string of the stack
+ * @stack: stack structure
+ * @line_number: number of instruction
+ */
+void pstr(stack_t **stack, UN unsigned int line_number)
+{
+	stack_t *temp = NULL;
+
+	if (*stack == NULL)
+	{
+		putchar(10);
+		return;
+	}
+
+	temp = *stack;
+
+	while (temp)
+	{
+		if (temp->n <= 0 || temp->n >= 128)
+		{
+			putchar(10);
+			return;
+		}
+		printf("%c", temp->n);
+		temp = temp->next;
+	}
+	putchar(10);
+}#include "monty.h"
+
+/**
+ * pstr - Function that prints string of the stack
+ * @stack: stack structure
+ * @line_number: number of instruction
+ */
+void pstr(stack_t **stack, UN unsigned int line_number)
+{
+	stack_t *temp = NULL;
+
+	if (*stack == NULL)
+	{
+		putchar(10);
+		return;
+	}
+
+	temp = *stack;
+
+	while (temp)
+	{
+		if (temp->n <= 0 || temp->n >= 128)
+		{
+			putchar(10);
+			return;
+		}
+		printf("%c", temp->n);
+		temp = temp->next;
+	}
+	putchar(10);
+}#include "monty.h"
+
+/**
+ * pstr - Function that prints string of the stack
+ * @stack: stack structure
+ * @line_number: number of instruction
+ */
+void pstr(stack_t **stack, UN unsigned int line_number)
+{
+	stack_t *temp = NULL;
+
+	if (*stack == NULL)
+	{
+		putchar(10);
+		return;
+	}
+
+	temp = *stack;
+
+	while (temp)
+	{
+		if (temp->n <= 0 || temp->n >= 128)
+		{
+			putchar(10);
+			return;
+		}
+		printf("%c", temp->n);
+		temp = temp->next;
+	}
+	putchar(10);
+}#include "monty.h"
+
+/**
+ * pstr - Function that prints string of the stack
+ * @stack: stack structure
+ * @line_number: number of instruction
+ */
+void pstr(stack_t **stack, UN unsigned int line_number)
+{
+	stack_t *temp = NULL;
+
+	if (*stack == NULL)
+	{
+		putchar(10);
+		return;
+	}
+
+	temp = *stack;
+
+	while (temp)
+	{
+		if (temp->n <= 0 || temp->n >= 128)
+		{
+			putchar(10);
+			return;
+		}
+		printf("%c", temp->n);
+		temp = temp->next;
+	}
+	putchar(10);
+}#include "monty.h"
+
+/**
+ * pstr - Function that prints string of the stack
+ * @stack: stack structure
+ * @line_number: number of instruction
+ */
+void pstr(stack_t **stack, UN unsigned int line_number)
+{
+	stack_t *temp = NULL;
+
+	if (*stack == NULL)
+	{
+		putchar(10);
+		return;
+	}
+
+	temp = *stack;
+
+	while (temp)
+	{
+		if (temp->n <= 0 || temp->n >= 128)
+		{
+			putchar(10);
+			return;
+		}
+		printf("%c", temp->n);
+		temp = temp->next;
+	}
+	putchar(10);
+}#include "monty.h"
+
+/**
+ * pstr - Function that prints string of the stack
+ * @stack: stack structure
+ * @line_number: number of instruction
+ */
+void pstr(stack_t **stack, UN unsigned int line_number)
+{
+	stack_t *temp = NULL;
+
+	if (*stack == NULL)
+	{
+		putchar(10);
+		return;
+	}
+
+	temp = *stack;
+
+	while (temp)
+	{
+		if (temp->n <= 0 || temp->n >= 128)
+		{
+			putchar(10);
+			return;
+		}
+		printf("%c", temp->n);
+		temp = temp->next;
+	}
+	putchar(10);
+}#include "monty.h"
+
+/**
+ * pstr - Function that prints string of the stack
+ * @stack: stack structure
+ * @line_number: number of instruction
+ */
+void pstr(stack_t **stack, UN unsigned int line_number)
+{
+	stack_t *temp = NULL;
+
+	if (*stack == NULL)
+	{
+		putchar(10);
+		return;
+	}
+
+	temp = *stack;
+
+	while (temp)
+	{
+		if (temp->n <= 0 || temp->n >= 128)
+		{
+			putchar(10);
+			return;
+		}
+		printf("%c", temp->n);
+		temp = temp->next;
+	}
+	putchar(10);
+}#include "monty.h"
+
+/**
+ * pstr - Function that prints string of the stack
+ * @stack: stack structure
+ * @line_number: number of instruction
+ */
+void pstr(stack_t **stack, UN unsigned int line_number)
+{
+	stack_t *temp = NULL;
+
+	if (*stack == NULL)
+	{
+		putchar(10);
+		return;
+	}
+
+	temp = *stack;
+
+	while (temp)
+	{
+		if (temp->n <= 0 || temp->n >= 128)
+		{
+			putchar(10);
+			return;
+		}
+		printf("%c", temp->n);
+		temp = temp->next;
+	}
+	putchar(10);
+}
